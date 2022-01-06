@@ -1,22 +1,33 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 h1 {
     font-size: 50px;
 }
+
+/* Section 1 */
+#first-colored-h1 {
+    color: peru;
+}
 .sec-1 {
-    margin: 0 auto;
-    width: 1200px;
-    height: 500px;
     display: flex;
     justify-content: space-around;
+}
+.sec-1 div {
+    padding-top: 50px;
+    width: 40%;
+}
+.hi-h1 {
+    border-left: thick double #32a1ce;
 }
 #span-1 {
     color: indianred;
 }
 .img-1 {
-    width: 300px;
+    width: 400px;
+    justify-content: space-around;
 }
 .btn-1 {
     padding: 20px 25px;
@@ -24,14 +35,76 @@ h1 {
     color: white;
     border: 5px ridge;
     border-radius: 18px;
-    box-shadow: 0 0 8px 7px grey;
+    box-shadow: 0 0 7px 4px grey;
+}
+.btn-1:focus {
+    box-shadow: inset 0 0 6px 1px black;
 }
 .small-caps {
     font-variant: small-caps;
 }
-#first-colored-h1 {
-    color: peru;
+/* Section 1 end */
+/* Section 2 */
+#span-2 {
+    color: darkorchid;
 }
-.sec-2 {
+.mission-div {
+    margin: auto 120px;
     display: flex;
+    justify-content: space-evenly;
 }
+.sec2-div {
+    height: auto;
+    width: 300px;
+    border-radius: 20px;
+    text-align: center;
+}
+.sec2-div p {
+    padding: 10px;
+}
+.img-illustrator {
+    height: 200px;
+    width: 200px;
+}
+.div2-1st {
+    background-color: pink;
+}
+.div2-2nd {
+    background-color: lightblue;
+}
+.div2-3rd {
+    background-color: lightgreen;
+}
+/* Section 2 end */
+
+
+
+
+
+
+
+
+
+/* Footer section */
+footer {    
+    background: darkgrey;
+    text-align: center;
+}
+.foot {
+    margin-top: 80px;
+    padding: 30px;
+}
+footer h1 {
+    margin-bottom: 0;
+    font-size: 50px;
+    font-family: 'Shizuru', cursive;
+}
+.foot-span-color {
+    color: mediumvioletred;
+}
+footer h2 {
+    color: mediumblue;
+}
+footer p {
+     margin-bottom: 0;
+ }
