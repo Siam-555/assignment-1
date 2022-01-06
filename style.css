@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-size: 50px;
+}
+.sec-1 {
+    margin: 0 auto;
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+#span-1 {
+    color: indianred;
+}
+.img-1 {
+    width: 300px;
+}
+.btn-1 {
+    padding: 20px 25px;
+    background: brown;
+    color: white;
+    border: 5px ridge;
+    border-radius: 18px;
+    box-shadow: 0 0 8px 7px grey;
+}
+.small-caps {
+    font-variant: small-caps;
+}
+#first-colored-h1 {
+    color: peru;
+}
+.sec-2 {
+    display: flex;
+}
