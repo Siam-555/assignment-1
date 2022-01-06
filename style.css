@@ -129,14 +129,38 @@ h1 {
 }
 /* Section 3 and 4 end */
 /* Bonus Section */
-
-
-
-
+.bonus-div {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.bon-divs {
+    padding: 50px;
+    width: 80px;
+    background: grey;
+    border-radius: 10px;
+    transition: .4s;
+}
+.bon-divs:hover {
+    padding: 55px;
+    width: 85px;
+}
+.dv-1 {
+    background: limegreen;
+}
+.dv-2 {
+    background: skyblue;
+}
+.dv-3 {
+    background: orange;
+}
+.dv-4 {
+    background: grey;
+}
 /* Bonus Section end */
 /* Footer section */
 footer {    
-    background: darkgrey;
+    background: black;
     text-align: center;
 }
 .foot {
@@ -145,6 +169,7 @@ footer {
 }
 footer h1 {
     margin-bottom: 0;
+    color: white;
     font-size: 50px;
     font-family: 'Twinkle Star', cursive;
 }
@@ -156,4 +181,5 @@ footer h2 {
 }
 footer p {
      margin-bottom: 0;
+     color: whitesmoke;
  }
